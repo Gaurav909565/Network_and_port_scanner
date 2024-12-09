@@ -24,7 +24,7 @@ This script performs port scanning on a target IP address or a range of IP addre
 
 3. **Run the script:**
    ```bash
-   python port_scanner.py -t <target> -p <port> 
+   python scanner.py -t <target> -p <port> 
    ```
    * **-t, --target:** Specify the target IP address or CIDR notation (e.g., 192.168.1.1 or 192.168.1.0/24).
    * **-p, --port:** Specify the port or range of ports to scan (e.g., 80, 22, 21 or 1-1024 or 22,80,443).
@@ -32,7 +32,7 @@ This script performs port scanning on a target IP address or a range of IP addre
 **Example:**
 
 ```bash
-python port_scanner.py -t 192.168.1.1 -p 22,80 
+python scanner.py -t 192.168.1.1 -p 22,80 
 ```
 
 This will scan the IP address 192.168.1.1 for ports 22 and 80.
